@@ -19,13 +19,26 @@ namespace ToDoList.Controllers
     {
       return View();
     }
+    [HttpGet("/items/{id}")]
+    public ActionResult Details(int id)
+    {
+      Item item = Item.Find(id);
+      return View(item);
+    }
 
     [HttpPost("/items/{id}")]
-    public ActionResult Details(int id)
+    public ActionResult Det(int id)
     {
       Item newItem = new Item(Request.Form["new-item"]);
       List<Item> allItems = Item.GetAll();
       return View("Index", allItems);
+    }
+
+    [HttpPost("/items/delete")]
+    public ActionResult DeleteAll()
+    {
+      Item.ClearAll();
+      return View();
     }
 
   }

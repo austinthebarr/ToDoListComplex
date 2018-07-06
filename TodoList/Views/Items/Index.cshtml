@@ -2,7 +2,10 @@
 <ul>
 @foreach (var item in Model)
 {
-<li><a href='/items/@item.GetId()'>@item.GetId() @item.GetDescription()</a></li>
+<li><a href='/items/@item.GetId()'>@item.GetDescription()</a></li>
 }
 </ul>
 <a href="/items/new">Add a new item.</a>
+<form action="/items/delete" method="post">
+  <button type="submit" name="button">Clear All Items</button>
+</form>

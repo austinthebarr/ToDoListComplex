@@ -31,14 +31,12 @@ namespace ToDoList.Models
     {
       return _instances;
     }
-    // public void Save()
-    // {
-    //   _instances.Add(this);
-    // }
+
     public static void ClearAll()
     {
       _instances.Clear();
     }
+    
     public static Item Find(int searchId)
     {
       return _instances[searchId-1];
