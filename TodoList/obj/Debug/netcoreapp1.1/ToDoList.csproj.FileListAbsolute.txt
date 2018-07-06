@@ -14,3 +14,13 @@
 /Users/Guest/Desktop/ToDo-List/TodoList/obj/Debug/netcoreapp1.1/ToDoList.pdb
 /Users/Guest/Desktop/ToDo-List/TodoList/bin/Debug/netcoreapp1.1/ToDoList.runtimeconfig.json
 /Users/Guest/Desktop/ToDo-List/TodoList/bin/Debug/netcoreapp1.1/ToDoList.runtimeconfig.dev.json
+/Users/austinbarr/Desktop/ToDoListMVC/TodoList/bin/Debug/netcoreapp1.1/ToDoList.deps.json
+/Users/austinbarr/Desktop/ToDoListMVC/TodoList/bin/Debug/netcoreapp1.1/ToDoList.runtimeconfig.json
+/Users/austinbarr/Desktop/ToDoListMVC/TodoList/bin/Debug/netcoreapp1.1/ToDoList.runtimeconfig.dev.json
+/Users/austinbarr/Desktop/ToDoListMVC/TodoList/bin/Debug/netcoreapp1.1/ToDoList.dll
+/Users/austinbarr/Desktop/ToDoListMVC/TodoList/bin/Debug/netcoreapp1.1/ToDoList.pdb
+/Users/austinbarr/Desktop/ToDoListMVC/TodoList/obj/Debug/netcoreapp1.1/ToDoList.csproj.CoreCompileInputs.cache
+/Users/austinbarr/Desktop/ToDoListMVC/TodoList/obj/Debug/netcoreapp1.1/ToDoList.AssemblyInfoInputs.cache
+/Users/austinbarr/Desktop/ToDoListMVC/TodoList/obj/Debug/netcoreapp1.1/ToDoList.AssemblyInfo.cs
+/Users/austinbarr/Desktop/ToDoListMVC/TodoList/obj/Debug/netcoreapp1.1/ToDoList.dll
+/Users/austinbarr/Desktop/ToDoListMVC/TodoList/obj/Debug/netcoreapp1.1/ToDoList.pdb

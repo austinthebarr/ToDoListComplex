@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ToDoList.Models;
+using System.Collections.Generic;
 
 namespace ToDoList.Controllers
 {
@@ -9,8 +10,8 @@ namespace ToDoList.Controllers
     [HttpGet("/items")]
     public ActionResult Index()
     {
-      Item newItem = new Item(Request.Query["new-item"]);
-      return View(newItem);
+      List<Item> allItems = Item.GetAll();
+      return View(allItems);
     }
 
     [HttpGet("items/new")]
@@ -19,6 +20,13 @@ namespace ToDoList.Controllers
       return View();
     }
 
+    [HttpPost("/items/Index")]
+    public ActionResult Create()
+    {
+      Item newItem = new Item(Request.Form["new-item"]);
+      List<Item> allItems = Item.GetAll();
+      return View(allItems);
+    }
 
   }
 }
